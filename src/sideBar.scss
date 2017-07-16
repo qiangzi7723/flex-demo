@@ -1,0 +1,20 @@
+.sideBar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 150px;
+    height: 300px;
+    padding: 10px;
+    background-color: #FCFDFD;
+    border-right: 1px solid #D7DBDD;
+    font-size: 12px;
+    color: #16A2D7;
+    .content div{
+        padding: 5px 10px;
+    }
+    .highLight{
+        background-color: #EEF3F5;
+        border-radius: 4px;
+    }
+}

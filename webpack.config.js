@@ -5,7 +5,9 @@ module.exports = {
         setCenter:'./src/setCenter.js',
         mediaObject:'./src/mediaObject.js',
         input:'./src/input.js',
-        holyGrail:'./src/holyGrail.js'
+        holyGrail:'./src/holyGrail.js',
+        table:'./src/table.js',
+        sideBar:'./src/sideBar.js'
     },
     output: {
         path: path.resolve(__dirname, './dist'),
