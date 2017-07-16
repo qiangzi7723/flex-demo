@@ -1,0 +1,23 @@
+section{
+    box-sizing: border-box;
+    width: 400px;
+    padding: 15px;
+    border-radius: 5px;
+    background: rgba(147, 128, 108, 0.098);
+    &>div{
+        display: flex;
+    }
+    figure{
+        margin: 0;
+        margin-right: 20px;
+        img{
+            width: 70px;
+        }
+    }
+    h3{
+        margin: 0;
+    }
+    p{
+        margin: 5px 0;
+    }
+}

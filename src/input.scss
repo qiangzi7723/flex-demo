@@ -1,0 +1,22 @@
+section{
+    display: flex;
+    width: 320px;
+    height: 40px;
+    div{
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        color:#666;
+        background: hsla(31,15%,50%,.1);
+        border-radius: 2px 0 0 2px;
+        border: 1px solid hsla(31,15%,50%,.25);
+        border-right: none;
+    }
+    input{
+        flex:1;
+        border:   1px solid hsla(31,15%,50%,.25);
+        font-size: 16px;
+        padding-left: 10px;
+        outline: none;
+    }
+}

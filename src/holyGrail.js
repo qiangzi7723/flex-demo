@@ -1,0 +1,1 @@
+require('./holyGrail.scss')

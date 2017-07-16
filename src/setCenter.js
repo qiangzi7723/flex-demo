@@ -1,0 +1,1 @@
+require('./setCenter.scss');

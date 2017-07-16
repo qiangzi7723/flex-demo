@@ -1,0 +1,45 @@
+#wrap{
+    display: flex;
+    flex-direction: column;
+    header{
+        height: 80px;
+        background-color: hsla(31,15%,50%,.1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    main{
+        display: flex;
+        margin: 20px 0;
+        #content,nav,aside{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #content{
+            flex-grow: 1;
+        }
+        nav{
+            order:-1;
+        }
+        nav,aside{
+            flex:0 0 160px;
+            background-color: hsla(31,15%,50%,.1);
+        }
+    }
+    footer{
+        height: 80px;
+        background-color: hsla(31,15%,50%,.1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:768px){
+    #wrap{
+        main{
+            flex-direction: column;
+        }
+    }
+}
